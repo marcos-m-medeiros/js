@@ -24,12 +24,10 @@
     <h1>Hello, world!</h1>
     <p>This is my first time studying <span class="js">JavaScript</span>.</p>
     <script>
-        //Mostra uma caixa de diálogo de aviso com o conteúdo opcionalmente especificado e um botão 'Ok'.
-        window.alert('Welcome!');
-        //Mostra uma janela modal com uma mensagem opcional e dois botões, 'Ok' e 'Cancelar'.
-        window.confirm('Do you wish to continue?');
-        //Exibe uma caixa de diálogo com uma mensagem opcional solicitando ao usuário a entrada de algum texto.
-        window.prompt('What is your name?');
+        var n1 = Number(window.prompt('Write the first number:')); //Number.parseInt()
+        var n2 = Number(window.prompt('Write the second number:')); //Number.parseFloat()
+        var s = n1 + n2;
+        window.alert(`The sum of ${n1} and ${n2} is equals to: ${s}`); //Template String
     </script>
 </body>
 
