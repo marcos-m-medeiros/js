@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Marcos Medeiros</title>
+
+    <style>
+        body {
+            background: plum;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16pt;
+        }
+
+        span.js {
+            color: yellow;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em <span class="js">JavaScript</span>.</p>
+    <div id="msg">Mensagem</div>
+    <script>
+        var corpo = window.document.body;
+        var p1 = window.document.getElementsByTagName('p')[1];
+
+        /*var d = window.document.getElementById('msg');
+        d.style.background = 'green';
+        d.innerText = 'Estou aguardando...';*/
+
+        var d = window.document.querySelector('div#msg').style.background = 'blue';
+    </script>
+</body>
+
+</html>
