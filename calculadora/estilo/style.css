@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: orange;
+    margin: 1%;
+}
+
+body h1 {
+    font: normal 70px 'Antic Slab', serif;;
+    text-align: center;
+}
+
+p {
+    font: normal 14px Arial;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font: normal 16pt Arial;
+    color: black;
+}
+
+div h2 {
+    color: white;
+}
+
+h2#criado{
+    font: normal 15px 'Antic Slab', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+span#marcos{
+    color: red;
+}
+
+img#eu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+input {
+    width: 134px;
+    height: 50px;
+}
+
+div#resultado {
+    margin-top: 10px;
+}
+
+a#resetar {
+    font: bold 17pt Arial;
+    display: block; /*É necessário para colocar no meio*/
+    text-align: center;
+    margin-top: 10px;
+}

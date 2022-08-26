@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script type="text/javascript" src="javascript/javascript.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <p>Projeto simples de estudo em JavaScript, HTML5 e CSS3. Calculadora básica com as quatro principais funções
+        aritméticas.</p>
+    <div id="soma">
+        <h2>SOMA</h2>
+        <input type="number" placeholder="Digite o seu número..." id="n1soma"> +
+        <input type="number" placeholder="Digite o seu número" id="n2soma">
+        <input type="button" value="Somar" onclick="somar()">
+    </div>
+    <div id="subtracao">
+        <h2>SUBTRAÇÃO</h2>
+        <input type="number" placeholder="Digite o seu número..." id="n1sub"> -
+        <input type="number" placeholder="Digite o seu número..." id="n2sub">
+        <input type="button" value="Subtrair" onclick="subtrair()">
+    </div>
+    <div id="multiplicacao">
+        <h2>MULTIPLICAÇÃO</h2>
+        <input type="number" placeholder="Digite o seu número..." id="n1mult"> x
+        <input type="number" placeholder="Digite o seu número..." id="n2mult">
+        <input type="button" value="Multiplicar" onclick="multiplicar()">
+    </div>
+    <div id="divisao">
+        <h2>DIVISÃO</h2>
+        <input type="number" placeholder="Digite o seu número..." id="n1div"> /
+        <input type="number" placeholder="Digite o seu número..." id="n2div">
+        <input type="button" value="Dividir" onclick="dividir()">
+    </div>
+    <div id="resultado">
+    </div>
+
+    <a href="index.html" id="resetar">RESETAR</a>
+
+    <h2 id="criado">Criado por <span id="marcos"><strong>Marcos Medeiros</strong></span></h2>
+    <img src="imagem/eu.jpg" alt="foto do autor" id="eu">
+</body>
+
+</html>
