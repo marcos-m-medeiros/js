@@ -1,0 +1,11 @@
+body {
+    background: plum;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+
+span.js {
+    color: yellow;
+    font-weight: bold;
+}

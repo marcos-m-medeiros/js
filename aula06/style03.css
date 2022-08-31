@@ -1,0 +1,10 @@
+body {
+    background-color: mediumorchid;
+    color: white;
+    font: normal 16pt Helvetica;
+}
+
+span.js {
+    color: yellow;
+    font-weight: bold;
+}

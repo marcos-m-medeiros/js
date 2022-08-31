@@ -4,19 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style07.css">
+    <script src="script07.js"></script>
     <title>Marcos Medeiros</title>
-    <style>
-        body {
-            font: normal 18pt Arial;
-        }
-        input {
-            font: normal 18pt Arial;
-            width: 100px;
-        }
-        div#res{
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
     <h1>Somando Valores</h1>
@@ -24,16 +14,5 @@
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
-    <script>
-        function somar(){
-            var tn1 = window.document.getElementById('txtn1');
-            var tn2 = window.document.getElementById('txtn2');
-            var res = window.document.querySelector('div#res'); //É a mesma coisa que usar o getElementById()
-            var n1 = Number(tn1.value);
-            var n2 = Number(tn2.value);
-            var s = n1 + n2;
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a: <strong>${s}</strong>`;
-        }
-    </script>
 </body>
 </html>
