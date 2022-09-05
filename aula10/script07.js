@@ -1,4 +1,4 @@
-function somar(){
+function somar() {
     var tn1 = window.document.getElementById('txtn1');
     var tn2 = window.document.getElementById('txtn2');
     var res = window.document.querySelector('div#res'); //É a mesma coisa que usar o getElementById()
