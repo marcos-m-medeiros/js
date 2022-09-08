@@ -23,3 +23,7 @@ footer {
     font-style: italic;
 }
 
+select {
+    overflow: hidden;
+}
+
