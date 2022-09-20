@@ -24,6 +24,5 @@ footer {
 }
 
 select {
-    overflow: hidden;
+    width: 150px;
 }
-
